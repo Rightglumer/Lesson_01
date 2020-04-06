@@ -4,6 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+        byte a = 1;
+        short b = 2;
+        int c = 3;
+        long d = 4l;
+        float e = 5.0f;
+        double f = 6.0d;
+        char g = 'a';
+        boolean h = true;
+
+
         System.out.println(calcExpression(2, 3, 8, 4));
         System.out.println(checkSum(10, 0));
         checkNumber(-1);
